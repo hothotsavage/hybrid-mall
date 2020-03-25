@@ -1,0 +1,9 @@
+// 定义预计根元素 fontSize -> Iphone 6、6s、7、8
+$rootFontSize: 375 / 10;
+
+// 定义像素转化为 rem 的函数
+// rem是CSS3新增的相对长度单位，
+// 是指相对于根元素html的font-size计算值的大小。简单可理解为屏幕宽度的百分比
+@function px2rem ($px) {
+    @return $px / $rootFontSize + rem;
+}

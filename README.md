@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # hybrid-mall
 
 ## Project setup
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# hybrid-mall
+>>>>>>> f506111e8807d716dac87ecc9fa352a6c848f92c
