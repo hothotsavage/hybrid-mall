@@ -1,5 +1,5 @@
 // vue.config.js
-const path = require('path');
+const path = require('path')
 
 // 修改webpack配置
 module.exports = {
@@ -33,6 +33,24 @@ module.exports = {
           '@c': path.resolve(__dirname, './src/components')
         }
       }
+    }
+  },
+
+  css: {
+    loaderOptions: {
+      stylus: {
+        'resolve url': true,
+        import: [
+          './src/theme'
+        ]
+      }
+    }
+  },
+
+  pluginOptions: {
+    'cube-ui': {
+      postCompile: true,
+      theme: true
     }
   }
 }
