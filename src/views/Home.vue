@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <p class="test">测试 fontsize</p>
-    <cube-button>Button</cube-button>
+    <cube-button>测试按钮</cube-button>
   </div>
 </template>
 
